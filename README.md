@@ -11,7 +11,7 @@
 
 > 用 geekmarvin/marvin-ppt 仓库的双 Skill 安装包，在这台电脑一次装好 ppt-master 和 marvin-ppt，并按仓库说明准备运行依赖。
 
-Codex 可以下载此仓库的 **Code → Download ZIP**，解压后运行仓库根目录的 `python install.py`。安装程序会校验附带的官方原包，安装两个 Skill，并保留目标电脑上已有的同名 Skill。自定义过 Codex 技能目录时，可用 `--dest` 指定实际的 `skills` 目录。 [安装程序](install.py)
+Codex 可以用 Git 下载本仓库，再运行仓库根目录的 `python install.py`。手动下载时，点击仓库的 **Code → Download ZIP**，解压后运行同一个安装程序。安装程序会校验附带的官方原包，安装两个 Skill，并保留目标电脑上已有的同名 Skill。自定义过 Codex 技能目录时，可用 `--dest` 指定实际的 `skills` 目录。 [安装程序](install.py)
 
 使用 PPT Master 需要 Python。Codex 可用同一个 Python 根据安装程序给出的 `requirements.txt` 路径准备依赖。图片复刻如需补绘，还需可用的参考图编辑能力。
 
